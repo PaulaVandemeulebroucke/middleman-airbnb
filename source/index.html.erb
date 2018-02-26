@@ -36,8 +36,15 @@ title: Le Wagon - Middleman
       <div class="col-md-4">
       <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/<%= infos.city %>');">
           <p class="city"><%= infos.city %></p>
+          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class: "img-circle" %>
           <h3><%= infos.name %></h3>
           <p class="description"><%= infos.description %></p>
+          <% infos.stars.times do |star|%>
+            <i class="fa fa-star yellow"></i>
+          <% end %>
+          <% (5 - infos.stars).times do |star|%>
+            <i class="fa fa-star"></i>
+          <% end %>
         </div>
       </div>
     <% end %>
