@@ -1,0 +1,15 @@
+Paulo:
+  name: 'Paulo Le Gigolo'
+  city: 'COPENHAGUE'
+  description: 'Goulou Goulou dans la case in Copenhague'
+  stars: 3
+Merlot:
+  name: 'Merlot Le Rigolo'
+  city: 'RIO'
+  description: 'Cage à Poules in Rio'
+  stars: 4
+Marionette:
+  name: 'Marionette La Chouette Bio'
+  city: 'PARIS'
+  description: 'Petit potager bio à Montmartre'
+  stars: 5
